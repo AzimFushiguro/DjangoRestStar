@@ -2,8 +2,8 @@ from django.contrib import admin
 from post.models import News, Car, Comment, Product, Article, Application, Blog
 from django.contrib.auth.models import Group, User
 
-admin.site.unregister(Group)
-admin.site.unregister(User)
+# admin.site.unregister(Group)
+# admin.site.unregister(User)
 
 
 @admin.register(News)
