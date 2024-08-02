@@ -15,5 +15,14 @@ class BlogSerialazer(serializers.ModelSerializer):
         model = Blog
         fields = ("id", "title", "description", "author_name", "publisher_year")
 
-classc 
+class ProductSerialazer(serializers.ModelSerializer):
+    class Meta:
+        model = Product
+        fields = ("id", "name", "qty", "price", "brand_name")
+
+class CarSerialazer(serializers.ModelSerializer):
+    class Meta:
+        model = Car
+        fields = ("id", "brand", "name", "power", "color", "country", "year")
+class 
     
